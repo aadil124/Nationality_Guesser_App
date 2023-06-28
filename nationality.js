@@ -6,7 +6,7 @@ const restCountryUrl = `https://restcountries.com/v3.1/all`;
 btnUser.addEventListener("click", async () => {
   const userName = document.querySelector("#userName").value;
   if (userName === "") {
-    alert("Please Enter User Name !!!");
+    alert("Please Enter Any Name !!!");
   } else {
     const userUrl = `https://api.nationalize.io/?name=${userName}`;
     //   showUserData.innerHTML = `Loading data for ${inputValue} ...`;
