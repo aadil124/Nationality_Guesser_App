@@ -57,7 +57,7 @@ const displayUserData = async (userData) => {
     showUserData.innerHTML += `
   <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-3 ">
               <div class="card h-100 bg-white text-dark border-info">
-              <div class = "card-header text-center">
+              <div class = "card-header text-center border-info">
                 <img src="${flagImg}" class="card-img-top" width="280" height="280" alt="country image">
 </img>  
               </div>
